@@ -1,5 +1,7 @@
 ### Note
 
+- Download image: `docker pull ubuntu:16.04`
+
 - Đặt tên và hostname cho container
 
 `docker run -it --name "abc" -host centos1 centos:latest`
@@ -15,6 +17,7 @@
 - Khôi phục lại image đã lưu: `docker load -i myimage.tar`
 
 - Đặt tên lại cho image `docker tag ID name:tag` # name/tag
+
 
 
 
